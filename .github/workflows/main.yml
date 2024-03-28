@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Greet the User
         run: echo "Hello World!"
-      - name: Show directory checkout
+      - name: Show directory before checkout
         run: ls -l
       - name: Checkout our code
         uses: action/checkout@v2
